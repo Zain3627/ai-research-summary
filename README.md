@@ -33,11 +33,3 @@ research/
 
 - **reading_list.md**: Central tracking document with all papers, status, and quick link
 
-## Status Tracking
-
-Mark papers in `reading_list.md` with:
-- 📋 To Read
-- 📖 In Progress
-- ✅ Completed
-- 📝 Summarized
-- 🔬 Reproduced
