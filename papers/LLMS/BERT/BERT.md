@@ -25,7 +25,7 @@ There are two main problems that this paper tried to address.
 The authors proposed a new language model that can be used with minimal modifications to work on different downstream tasks. They introduced BERT (Bidirection Encoder Representation from Transformers). 
 
 ### Architecture
-BERT's model architecture is a multi-layer bidirectional transformer encoder. It consists of position and segment encoding added to WordPiece embeddings. After that come different multi-attention heads with a softmax activation function. ![image](bert_architecture.png)
+BERT's model architecture is a multi-layer bidirectional transformer encoder. It consists of position and segment encoding added to WordPiece embeddings. After that come different multi-attention heads with a softmax activation function. ![image](images/bert_architecture.png)
 ### Input Representations
 - The [CLS] token is passed at the start of every sequence. This token builds a full understanding of the complete sequence, which enables its output embeddings to be used in different downstream classification tasks.
 - The [SEP] token is used to separate sentence pairs in one sequence. 
@@ -43,7 +43,7 @@ For each task, this can be done by plugging in the task-specific inputs and outp
 ---
 
 ## Experimental Results
-BERT was fine-tuned and tested on 11 different NLP tasks. BERT model outperformed all other models and architectures, proving a huge improvement. BERT even outperformed the OpenAI GPT model, which consists of a similar architecture but lacks bidirectional learning. Results of different tasks can be seen in the following images. ![image](test_1.png) ![image](test_2.png) ![image](test_3.png) ![image](test_4.png)
+BERT was fine-tuned and tested on 11 different NLP tasks. BERT model outperformed all other models and architectures, proving a huge improvement. BERT even outperformed the OpenAI GPT model, which consists of a similar architecture but lacks bidirectional learning. Results of different tasks can be seen in the following images. ![image](images/test_1.png) ![image](images/test_2.png) ![image](images/test_3.png) ![image](images/test_4.png)
 
 ---
 

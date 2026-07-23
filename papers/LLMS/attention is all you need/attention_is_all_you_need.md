@@ -23,16 +23,16 @@ There are two deficiencies in recurrent neural networks that the authors wanted 
 ## Proposed Solution
 
 ### Architecture
-This paper introduces a new network architecture called transformers. A novel network architecture for sequence transduction tasks that relies entirely on something called *attention*. The architecture, in summary, follows an encoder-decoder approach, with multi-head self-attention applied in both the encoder and decoder. ![image](transformers_architecture.png)
+This paper introduces a new network architecture called transformers. A novel network architecture for sequence transduction tasks that relies entirely on something called *attention*. The architecture, in summary, follows an encoder-decoder approach, with multi-head self-attention applied in both the encoder and decoder. ![image](images/transformers_architecture.png)
 ### Multi Head Self Attention
-Multi-head self-attention is a process in which each token (word) generates a query (what information I am searching for in other tokens), a key (what information I contain), and a value (the actual relevant information to be passed). ![image](multi_head_attention.png)
+Multi-head self-attention is a process in which each token (word) generates a query (what information I am searching for in other tokens), a key (what information I contain), and a value (the actual relevant information to be passed). ![image](images/multi_head_attention.png)
 ### Positional Encodings
 Transformers remove recurrence and convolution so they need something to sense the relative positions of tokens. The authors generated positional encoded embeddings and added them to the embeddings of each token to interpret the position of the token with its embeddings. 
 
 ---
 
 ## Experimental Results
-That transformer was tested on two translation tasks and was compared with the finest-trained models on these tasks. It was obvious that the transformer outperformed all models in the BLEU score. One strong point of the transformer is also the huge decrease in its training cost compared to other deep learning architectures. ![image](results.png)
+That transformer was tested on two translation tasks and was compared with the finest-trained models on these tasks. It was obvious that the transformer outperformed all models in the BLEU score. One strong point of the transformer is also the huge decrease in its training cost compared to other deep learning architectures. ![image](images/results.png)
 
 ---
 
