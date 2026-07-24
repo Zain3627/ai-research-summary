@@ -1,2 +1,2 @@
 - [x] [Attention Is All You Need](https://arxiv.org/pdf/1706.03762)
-- [ ] [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805)
+- [X] [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805)

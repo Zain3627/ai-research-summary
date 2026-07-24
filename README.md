@@ -16,8 +16,11 @@ research/
 ├── README.md                 # This file - project overview
 ├── reading_list.md          # Master list of all papers to read (with status)
 ├── papers/                  # Organized collection of paper summaries
-│   └── LLMS/               # Large Language Models topic
-│       └── attention_is_all_you_need/  # Paper-specific directory
+│   └── field/               # Specific fields that groups different papers
+│       └── paper_name/      # Paper-specific directory
+│           └── images/      # Directory for screenshots from the original paper
+│           └── file.pdf     # Original paper
+│           └── file.md      # Paper analysis 
 └── reproductions/          # Code and results from reproducing paper experiments
 ```
 
