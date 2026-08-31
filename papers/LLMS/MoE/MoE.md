@@ -43,17 +43,17 @@ The network consists of a number of experts, each a simple feed-forward neural n
 The authors evaluated the sparsely-gated MoE layer mainly on **language modeling** and **machine translation** tasks. The experiments were designed to test whether increasing model capacity through many sparsely activated experts can improve model quality without a proportional increase in computation.
 
 ### 1. 1 Billion Word Language Language Modelling Benchmark
-- The authors tested different MoE models with the previous-state-of-the-art LSTM model. ![image](images/result_1)
+- The authors tested different MoE models with the previous-state-of-the-art LSTM model. ![image](images/result_1.png)
 
 ### 2. 100 Billion Word Google News Corpus
-- The authors tested the performance of LSTM model paired with MoE module with different number of experts and parameters. The test results were staged after training on 10B words once and another time after training on 100B words. ![image](images/result_2) 
+- The authors tested the performance of LSTM model paired with MoE module with different number of experts and parameters. The test results were staged after training on 10B words once and another time after training on 100B words. ![image](images/result_2.png) 
 
 ### 3. Machine Translation (Single Language Pair)
-- The authors used a modified version of The GNMT model with different variations. ![image](images/result_3)
+- The authors used a modified version of The GNMT model with different variations. ![image](images/result_3.png)
 The introduced models achieved a 1.34 and 1.12 BLEU score gain on top of the score of the strong baseline due to the significant increase in the number of parameters.
 
 ### 4. Multilingual Machine Translation
-- The authors used on MoE model and compared it to baseline model in 12 language pairs combined datasets. ![image](images/result_4)
+- The authors used on MoE model and compared it to baseline model in 12 language pairs combined datasets. ![image](images/result_4.png)
 
 ### Overall Result
 The experiments demonstrated that sparsely-gated MoE layers can provide a large increase in model capacity with only a relatively small increase in computation, which support the paper's central hypothesis.
